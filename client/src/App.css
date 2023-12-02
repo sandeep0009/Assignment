@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.card{
+    border: 1px solid black;  
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem;
+    line-height: 1.2;
+}
+.container-inside{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    max-width: 120rem;
+    gap: 12px;
+   
+
+}
+
+.image{
+    height: 80px;
+    width: 40;
+    border-radius: 12px;
+    margin:12px auto;
+    display: flex;
+}
+
+span{
+    text-decoration: underline;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+   
+    padding: 40px;
+}
+
+input{
+    width: 70%;
+    height: 40px;
+    outline: none;
+}
